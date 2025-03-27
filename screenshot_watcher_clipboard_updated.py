@@ -7,19 +7,15 @@ from watchdog.events import FileSystemEventHandler
 from PIL import Image
 import pyperclip
 
-# Set this to the correct path if tesseract isn't in PATH
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
-# Folder where Windows saves screenshots
 screenshot_folder = os.path.expanduser(r"C:\Users\imama\OneDrive\Pictures\Screenshots")
-# Output folder for transcribed text files
 output_folder = r"C:\KyojinStudios\SSReader\Screenshot transcribed"
 
 class ScreenshotHandler(FileSystemEventHandler):
     def on_created(self, event):
         if event.is_directory or not event.src_path.lower().endswith(".png"):
             return
-        time.sleep(1)  # wait for the file to be fully saved
+        time.sleep(1)  
         try:
             img = Image.open(event.src_path)
             text = pytesseract.image_to_string(img)
