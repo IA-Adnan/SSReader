@@ -1,4 +1,5 @@
 # SSReader 🖼️📄
+Download: https://drive.google.com/file/d/104yDwoMAbMITa_P3-ssScHPD60bXq7Hf/view?usp=sharing
 
 A screenshot-to-text automation tool that uses Tesseract OCR and Python to extract text from screenshots saved with `Win + PrintScreen` and outputs it to a folder and copies text content to clipboard, (will be) ready for ingestion into local LLMs (like AnythingLLM).
 
