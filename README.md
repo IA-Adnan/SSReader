@@ -7,6 +7,7 @@ A screenshot-to-text automation tool that uses Tesseract OCR and Python to extra
 
 - 🖼️ Auto-watches for screenshots in real-time
 - 📄 Extracts and saves transcribed text as `.txt`
+- 📋 Copies to clipboard
 - 🧃 One-click install with bundled Python + Tesseract
 
 ## 📂 Folder Structure
