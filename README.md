@@ -16,4 +16,5 @@ A screenshot-to-text automation tool that uses Tesseract OCR and Python to extra
 - `python/` – Embedded Python environment
 
 ##
-- Might add mini tray launcher and direct ingestion access for local LLM 
+- Might add UI with hotkey setting support + mini tray launcher + and direct ingestion access for local LLM 
+if anyone needs it just say it and it'll be done https://discord.gg/mtm6SJe 
